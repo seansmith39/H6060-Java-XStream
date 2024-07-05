@@ -133,3 +133,4 @@ jobs:
       sast-horusec-enabled: ${{ inputs.sast-horusec-enabled }}
       sast-snyk-code-enabled: ${{ inputs.sast-snyk-code-enabled }}
       project-name: H6060-Java-XStream
+      build-directory: ''
