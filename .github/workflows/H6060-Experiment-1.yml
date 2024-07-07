@@ -83,7 +83,6 @@ jobs:
           java-version: 17
 
       - name: Build Maven Application
-        shell: bash
         run: mvn -Dmaven.test.skip=true clean install
 
       - name: Upload Maven Build Repository
